@@ -25,6 +25,10 @@ jobs:
         uses: actions/checkout@v4
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
+      - name: Prepare /en46 route
+        run: |
+          mkdir -p public/en46
+          cp public/index.html public/en46/index.html
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v4
         with:
