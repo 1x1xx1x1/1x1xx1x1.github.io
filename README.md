@@ -14,4 +14,4 @@
 
 ## 网页文件与发布
 
-网页文件为 `public/index.html`。GitHub Actions 将 `public` 文件夹发布到 GitHub Pages。发布来源应设置为 GitHub Actions。
+网页源文件为 `public/index.html`。GitHub Actions 将页面放到 `/en46/` 路径发布，根域名不提供学习计划页面。发布来源设置为 GitHub Actions。
