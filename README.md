@@ -1,12 +1,17 @@
-# CET-4 daily study plan
+# 英语四级每日学习计划
 
-This repository contains a single-file static study plan for GitHub Pages. The site has no login, password gate, or encrypted content. The repository and page are intended to be public.
+在线使用：[打开学习计划](https://ygcfyz.github.io/)
 
-## Deploying GitHub Pages
+这是一个适合手机和电脑使用的四级备考网页，包含每日任务、学习日历、单词与短语、视频课程和真题资料链接。
 
-The included GitHub Actions workflow publishes `public/` on pushes to `main`. Set the repository's Pages build source to **GitHub Actions** under Settings → Pages.
+- 主要备考安排：2026 年 10 月 2 日至 12 月 1 日。
+- 常规学习日约 80 分钟，每周安排休息日，忙碌时可选择保底任务。
+- 学习进度保存在当前浏览器，手机和电脑之间不会自动同步。
 
-## Password note
+## 使用方式
 
-GitHub Pages publishes a public static website from the repository. Do not put private or confidential information in this repository.
+用 iPhone 的 Safari 或电脑浏览器打开上面的学习计划网址即可使用。此处是代码仓库，仓库首页显示的是这份说明。
 
+## 网页文件与发布
+
+网页文件为 `public/index.html`。GitHub Actions 将 `public` 文件夹发布到 GitHub Pages。发布来源应设置为 GitHub Actions。
