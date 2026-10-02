@@ -27,12 +27,12 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Prepare /en46 route
         run: |
-          mkdir -p public/en46
-          cp public/index.html public/en46/index.html
+          mkdir -p _site/en46
+          cp public/index.html _site/en46/index.html
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: public
+          path: _site
       - name: Deploy site
         id: deployment
         uses: actions/deploy-pages@v5
